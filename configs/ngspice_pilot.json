@@ -1,0 +1,35 @@
+{
+  "profile_name": "mineru_technical_manual_ngspice_pilot",
+  "sections": {
+    "remove_toc": true,
+    "toc_start_headings": ["Contents"],
+    "toc_end_headings": ["Prefaces"],
+    "remove_index": true,
+    "index_headings": ["Index"],
+    "index_min_position_ratio": 0.75
+  },
+  "images": {
+    "mode": "drop_all",
+    "remove_adjacent_caption": true
+  },
+  "tables": {
+    "convert_html_to_markdown": true,
+    "expand_merged_cells": true,
+    "quarantine_suspicious": true
+  },
+  "headings": {
+    "merge_chapter_title": true,
+    "repair_numbered_levels": true,
+    "promote_unmarked_numbered_headings": true
+  },
+  "code": {
+    "language_policy": "strip_all",
+    "flatten_blocks_containing_numbered_headings": true
+  },
+  "quality": {
+    "minimum_character_retention": 0.60,
+    "maximum_character_retention": 1.10,
+    "require_idempotence": true,
+    "suspicious_tables_require_review": true
+  }
+}
